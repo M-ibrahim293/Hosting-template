@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar start */
+.btn {
+    background-color: #e84c3d;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.sub_header {
+    background-image: url('../images/B.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+a img {
+    width: 280px;
+    margin-right: 230px;
+    padding-bottom: 150px;
+}
+
+ul li {
+    display: inline-flex;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #2dcc70;
+}
+
+.nav_information h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav_information h1 {
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav_information p {
+    margin-bottom: 30px;
+    padding-right: 120px;
+    color: #fff;
+}
+
+.navbar_img {
+    width: 430px;
+    position: absolute;
+    top: 128px;
+    right: 200px;
+}
+
+/* navbar end */
+/* Dedicated Plans Cards start */
+.price_card_plan {
+    background-color: #eff1ed;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.card {
+    padding: 20px 40px;
+    margin: 30px 0;
+    border: 3px solid transparent;
+}
+
+.card-text_1 {
+    font-size: 30px;
+}
+
+.card-text {
+    margin-bottom: 40px;
+}
+
+.card-title {
+    color: #2dcc70;
+    margin-bottom: 25px;
+}
+
+.btn1 {
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid #eff1ed;
+    padding: 10px 40px;
+    color: black;
+}
+
+.card-title_1 {
+    border: 2px solid #eff1ed;
+    color: #2dcc70;
+    background-color: #f7dede;
+    border-radius: 20px;
+    margin: 0 100px;
+    padding: 3px 0;
+    margin-bottom: 15px;
+}
+
+.center_card {
+    margin: -1px 0;
+}
+
+.card-text_2 {
+    margin-bottom: 40px;
+}
+
+.card-title:hover {
+    color: #e84c3d;
+}
+
+.card-title_1:hover {
+    color: #e84c3d;
+    border-color: #e84c3d;
+}
+
+.btn1:hover {
+    color: #e84c3d;
+    border-color: #e84c3d;
+    text-decoration: none;
+}
+
+.card:hover {
+    border: 3px solid #e84c3d;
+}
+
+/* Dedicated Plans Cards End */
+/* Video Secttion Start */
+.video_part {
+    padding: 90px 0;
+}
+
+.video_part img {
+    width: 450px;
+}
+
+.video_part h1 {
+    margin: 30px 0;
+}
+
+.video_part p {
+    margin-bottom: 20px;
+    padding-right: 150px;
+}
+
+.p_2 {
+    color: #3775e7;
+}
+
+.p_3 {
+    color: #e84c3d;
+}
+
+/* Video Secttion End */
+/* Features start */
+.features {
+    padding: 90px 0;
+    background-image: url('../images/E.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.features_heading {
+    color: #fff;
+    margin-bottom: 40px;
+    padding-right: 70px;
+}
+
+.left_box p {
+    color: #fff;
+    margin-bottom: 40px;
+    padding-right: 60px
+}
+
+.btn_2 {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: transparent;
+    padding: 3px 15px;
+}
+
+.middle_box>.box_1,
+.box_2,
+.right_box>.box_1,
+.box_2 {
+    color: #fff;
+}
+
+.middle_box>.box_1,
+.right_box>.box_1 {
+    margin-bottom: 60px;
+}
+
+.middle_box>.box_1>p,
+.box_2>p,
+.right_box>.box_1>p,
+.box_2>p {
+    padding-right: 64px;
+}
+
+/* Features end */
+/* Data Center Start */
+.data_center {
+    background-image: url('../images/J.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.data_information {
+    text-align: center;
+}
+
+.data_information>p {
+    padding-right: 215px;
+    padding-left: 215px;
+}
+
+.data_card-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.data_center .card {
+    border: none;
+}
+
+.data_card-img {
+    filter: brightness(15%);
+    margin-bottom: 40px;
+}
+
+.data_card-img:hover {
+    background-color: #e84c3d;
+}
+
+/* map part start */
+@keyframes animates {
+    from {
+        background-color: #e84c3d;
+    }
+
+    to {
+        background-color: #2dcc70;
+    }
+}
+
+@keyframes animates_1 {
+    from {
+        background-color: #e84c3d;
+    }
+
+    to {
+        background-color: #2dcc70;
+    }
+}
+
+@keyframes animates_2 {
+    from {
+        background-color: #e84c3d;
+    }
+
+    to {
+        background-color: #2dcc70;
+    }
+}
+
+@keyframes animates_3 {
+    from {
+        background-color: #e84c3d;
+    }
+
+    to {
+        background-color: #2dcc70;
+    }
+}
+
+@keyframes animates_4 {
+    from {
+        background-color: #e84c3d;
+    }
+
+    to {
+        background-color: #2dcc70;
+    }
+}
+
+.map_animation {
+    width: 20px;
+    height: 20px;
+    background-color: #e84c3d;
+    border-radius: 20px;
+    animation-name: animates;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: absolute;
+    top: 3150px;
+    left: 228px;
+}
+
+.map_animation_1 {
+    width: 20px;
+    height: 20px;
+    background-color: #e84c3d;
+    border-radius: 20px;
+    animation-name: animates_1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: absolute;
+    top: 3253px;
+    left: 389px;
+}
+
+.map_animation_2 {
+    width: 20px;
+    height: 20px;
+    background-color: #e84c3d;
+    border-radius: 20px;
+    animation-name: animates_2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: absolute;
+    top: 3178px;
+    left: 653px;
+}
+
+.map_animation_3 {
+    width: 20px;
+    height: 20px;
+    background-color: #e84c3d;
+    border-radius: 20px;
+    animation-name: animates_3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: absolute;
+    top: 3432px;
+    left: 746px;
+}
+
+.map_animation_4 {
+    width: 20px;
+    height: 20px;
+    background-color: #e84c3d;
+    border-radius: 20px;
+    animation-name: animates_4;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: absolute;
+    top: 3112px;
+    left: 916px;
+}
+
+.map_place {
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6.959px 49.513px 90px 0px rgba(34, 35, 40, 0.6);
+    position: absolute;
+    top: 3150px;
+    left: 250px;
+    width: 240px;
+    display: none;
+}
+
+.map_place_1 {
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6.959px 49.513px 90px 0px rgba(34, 35, 40, 0.6);
+    position: absolute;
+    top: 3253px;
+    left: 412px;
+    width: 240px;
+    display: none;
+}
+
+.map_place_2 {
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6.959px 49.513px 90px 0px rgba(34, 35, 40, 0.6);
+    position: absolute;
+    top: 3178px;
+    left: 676px;
+    width: 240px;
+    display: none;
+}
+
+.map_place_3 {
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6.959px 49.513px 90px 0px rgba(34, 35, 40, 0.6);
+    position: absolute;
+    top: 3433px;
+    left: 770px;
+    width: 240px;
+    display: none;
+}
+
+.map_place_4 {
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6.959px 49.513px 90px 0px rgba(34, 35, 40, 0.6);
+    position: absolute;
+    top: 3110px;
+    left: 940px;
+    width: 240px;
+    display: none;
+}
+
+.map_animation:hover+.map_place,
+.map_animation_1:hover+.map_place_1,
+.map_animation_2:hover+.map_place_2,
+.map_animation_3:hover+.map_place_3,
+.map_animation_4:hover+.map_place_4 {
+    display: block;
+    color: #2dcc70;
+}
+
+.map_place>p,
+.map_place_1>p,
+.map_place_2>p,
+.map_place_3>p,
+.map_place_4>p {
+    color: black;
+}
+
+/* map part end */
+/* Data Center End */
+/* Informatin slider start */
+.information_slider {
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider_img {
+    padding-bottom: 80px;
+}
+
+.slider_text {
+    padding-right: 270px;
+    padding-left: 270px;
+    padding-bottom: 30px;
+}
+
+.slider_heading {
+    color: #2dcc70;
+    padding-bottom: 60px;
+}
+
+/* Informatin slider end */
+/* Slider star */
+.slider {
+    background-color: #eff1ed;
+    padding-bottom: 40px;
+}
+
+.carousel-inner_1 {
+    padding: 40px 0;
+}
+
+/* Slider end */
+/* counter start */
+.counter {
+    background-image: url('../images/R.png');
+    padding: 40px 0;
+    padding-top: 70px;
+    padding-left: 170px;
+}
+
+.counter_img {
+    position: absolute;
+    left: 110px;
+}
+
+.counter_img_1 {
+    position: absolute;
+    left: 400px;
+}
+
+.counter_img_2 {
+    position: absolute;
+    left: 680px;
+}
+
+.counter_img_3 {
+    position: absolute;
+    left: 970px;
+}
+
+.counter_heading {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.counter_text {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* counter end */
+/* Footer start */
+.footer {
+    padding: 60px 0;
+}
+
+.footer_text {
+    padding-right: 83px;
+}
+
+.footer_text_1 {
+    color: #e84c3d;
+    text-transform: uppercase;
+}
+
+.footer_text_2 {
+    padding-right: 110px;
+}
+
+.footer_text_3 {
+    padding-right: 160px;
+}
+
+.footer_text_4 {
+    padding-right: 155px;
+}
+
+.footer img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer img:hover {
+    color: #e84c3d;
+}
+
+/* Footer end */
+/* website details start */
+.details {
+    background-color: #222328;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* website details end */
+/* Media Quairy stat */
+@media(max-width: 1400px) {
+    .counter_img {
+        left: 90px;
+    }
+
+    .counter_img_1 {
+        left: 370px;
+    }
+
+    .counter_img_2 {
+        left: 650px;
+    }
+
+    .counter_img_3 {
+        left: 940px;
+    }
+}
+
+@media(max-width: 1024px) {}
+
+/* Media Quairy end */
